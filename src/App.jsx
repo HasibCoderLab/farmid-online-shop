@@ -2,6 +2,7 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect, useState } from "react";
+import Banner from "./Components/Banner/Banner";
 
 
 const App = () => {
@@ -23,7 +24,7 @@ AOS.refresh();
   // ==================  =============
   return (
     <div className="bg-white dark:bg-gray-900 dark:text-white duration-200">
-      App
+      <Banner></Banner>
       </div>
   )
 }
